@@ -1,4 +1,5 @@
 // pegando elementos
+
 /*const inputTexto = document.getElementById("inputTexto");
 const localResultado = document.getElementById("localResultado");
 const buttonMostrar = document.getElementById("buttonMostrar");
