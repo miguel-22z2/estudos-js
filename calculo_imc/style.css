@@ -1,0 +1,67 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conteinerPrincipal {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 10px;
+}
+
+#conteinerBotao button {
+    background-color: rgb(6, 177, 177);
+    border: 0px;
+    padding: 8px;
+    width: 32.4%;
+    cursor: pointer;
+    color: azure;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#conteinerInputs {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3px;
+}
+
+#conteinerInputs input {
+    outline: none;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 130%;
+}
+
+#conteinerInputs input:focus {
+    border: 1.5px solid rgb(6, 177, 177);
+}
+
+#conteinerSegurandoResultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteinerResultado {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    gap: 6px;
+    position: relative;
+    top: 8rem;
+    background-color: rgba(211, 240, 249, 0.64);
+    width: 70%;
+    color: rgb(6, 177, 177);
+    padding: 24px;
+    border-radius: 6px;
+}
+
+#conteinerResultado label {
+    white-space: nowrap;
+}
