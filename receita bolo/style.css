@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(181, 111, 247, 0.039);
+    margin: 15px;
+}
+
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(119, 23, 168);
+    font-size: 30px;
+
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.632);
+    position: relative;
+    top: -15px;
+}
+
+strong {
+    color: rgb(119, 23, 168);
+}
+
+p {
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#massaReceita {
+    font-size: 18px;
+}
+
+#massaCobertura {
+    color: rgb(119, 23, 168);
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#classificacaoIngredientes {
+    font-size: 19px;
+    position: relative;
+    top: 12.5px;
+}
+
+button {
+    background-color: rgba(177, 112, 238, 0.606);
+    color: aliceblue;
+    cursor: pointer;
+    border: 0px;
+}
