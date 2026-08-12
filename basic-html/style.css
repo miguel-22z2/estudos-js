@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+LA+Guides&display=swap');
+
+body {
+    background-color: rgba(204, 251, 252, 0.395);
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Playwrite DE LA Guides", sans-serif;
+}
+
+#paragrafoMusica {
+    color: darkblue;
+}
+
+.textos-principais {
+    color: darkblue;
+}
+
+.botao-clipe {
+    background-color: rgba(6, 6, 97, 0.347);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
