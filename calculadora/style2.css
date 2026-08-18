@@ -1,0 +1,327 @@
+body {
+    background-color: rgba(189, 229, 253, 0.45);
+}
+
+h1 {
+    color: rgba(0, 45, 79, 0.848);
+    font-size: 40px;
+    position: relative;
+    
+
+}
+
+#botao1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: 25px;
+    top: 300px;
+   
+
+}
+
+#botao2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: 35px;
+    top: 300px;
+
+}
+
+#botao3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: 45px;
+    top: 300px;
+
+}
+
+#botao4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -157px;
+    top: 238px;
+}
+
+#botao5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -147px;
+    top: 238px;
+
+}
+
+#botao6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -138px;
+    top: 239px;
+
+}
+
+#botao7 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -340px;
+    top: 177px;
+}
+
+#botao8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -330px;
+    top: 177px;
+}
+
+#botao9 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -320px;
+    top: 177px;
+}
+
+#botao0 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -453px;
+    top: 362px;
+}
+
+#botaoMais {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.848);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -371px;
+    top: 301px;
+}
+
+#botaoMenos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.848);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -432px;
+    top: 240px;
+}
+
+#botaoMultiplicacao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.848);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -490px;
+    top: 180px;
+}
+
+#botaoDivisao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.848);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -549px;
+    top: 120px;
+}
+
+#botaoIgual {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.848);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -799px;
+    top: 363px;
+}
+
+#botaoLimpar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.704);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -948px;
+    top: 119px;
+}
+
+#botaoPonto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 27px;
+    left: -745px;
+    top: 363px;
+
+}
+
+#botaoPorcentagem {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.704);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    position: relative;
+    left: -680px;
+    top: 120px;
+}
+
+#botaoAC {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(0, 45, 79, 0.704);
+    color: #fff;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 14px 21px;
+    position: relative;
+    left: -1004px;
+    top: 120px;
+}
+
+#botaoM {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6dc5f4c0;
+    color: #fff;
+    border: 0px;
+    position: relative;
+    margin-top: 316px;
+    border-radius: 25px;
+    padding: 14px 23px;
+    left: 26px;
+    top: -1px;
+
+}
+
+#localResultado {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: rgba(118, 185, 227, 0.313);
+    color: rgba(0, 45, 79, 0.848);
+    text-align: end;
+    align-items: end;
+    position: relative;
+    border-radius: 22px;
+    padding: 20px 50px;
+    left: -444px;
+    top: -840px;
+    margin: 38.8%;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button {
+    cursor: pointer;
+}
+
+#localResultado::view-transition {
+    transition: all 0.2s ease-in-out;
+
+}
