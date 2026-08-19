@@ -6,6 +6,7 @@ let currentOperator = ""
 function appendNumber(value){
     currentInput += value;
     display.textContent = currentInput;
+    //codigo para fazer os numeros funcionarem//
 
 }
 
@@ -14,7 +15,6 @@ function appendOperator(operator){
     currentInput += operator;
     display.textContent = currentInput;
 }
-
 function calculate(){
     try {
         let result = eval(currentInput)

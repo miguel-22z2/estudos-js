@@ -1,0 +1,120 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(5, 25, 40, 0.61)), url(https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/5248/3263dd58e5e9d98da517c1b9709af034.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h2 {
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+    position: relative;
+    top: 320px;
+    left: 170px;
+}
+
+#botaostory {
+    color: rgb(200, 200, 200);
+    background-color: transparent;
+    border: 0px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+    top: 11px;
+    left: 150px;
+}
+
+#botaohome {
+    color: rgb(200, 200, 200);
+    background-color: transparent;
+    border: 0px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+    top: 11px;
+    left: 142px;
+
+}
+
+#botaowallpapers {
+    color: rgb(200, 200, 200);
+    background-color: transparent;
+    border: 0px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+    top: 11px;
+    left: 150px;
+}
+
+#botaotrailer {
+    color: rgb(200, 200, 200);
+    background-color: transparent;
+    border: 0px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+    top: 11px;
+    left: 150px;
+}
+
+#botaoassistir {
+    background-color: red;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 10px;
+    margin-top: 0px;
+    border: 0px;
+    top: 480px;
+    padding: 10px 20px;
+    left: -150px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#imagemlogo {
+    position: relative;
+    top: -230px;
+    width: 250px;
+    left: 150px;
+}
+
+#imagemsupermario {
+    position: relative;
+    transform: scale(1.2);
+    top: -40px;
+    width: 800px;
+    left: 500px;
+}
+
+#imagemchapeu {
+    position: relative;
+    transform: scale(1.2);
+    top: -550px;
+    width: 80px;
+    left: -990px;
+}
