@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(10, 10, 27);
+
+}
+
+h1, h2,h3,h4,h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(240, 248, 255);
+
+
+}
+
+#botaoMais {
+    background-color: green;
+    color: white;
+    border-radius: 70px;
+    border: none;
+    padding: 4.5px 8px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    position: relative;
+    right: 12px
+    
+}
+
+#botaoMenos {
+    background-color: red;
+    color: white;
+    border-radius: 70px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    transition: 200ms;
+    right: 22px;
+}
+
+#botaoContar {
+    background-color: rgb(10, 10, 27);
+    border-radius: 15px;
+    border: 1px solid rgb(24, 36, 48);
+    padding: 15px 15px;
+    margin: 4%;
+    gap: 10px;
+    width: 12rem;
+    height: 9rem;
+    text-align: center;
+}
+
+#labelMenos {
+    position: relative;
+    top: -5px;
+}
+
+#labelMais {
+    position: relative;
+    top: -2px;
+}
+
+hr {
+    width: 185px;
+    height: 0.5px;
+    background-color: rgb(24, 36, 48);
+    border: none;
+    position: relative;
+    margin-top: 10px;
+    left: -350px;
+    top: 89px;
+}
+
+button:active {
+    transform: scale(0.95);
+
+}
+
+h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(240, 248, 255);
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    font-size: 15px;
+}
+
+label#contador {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(240, 248, 255);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -55px;
+    font-size: 35px;
+    left: 35px;
+    height: 20px;
+}

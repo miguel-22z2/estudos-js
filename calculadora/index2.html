@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+
+    <div>
+        <button id="botao1" onclick="adicionarBotao('1')">1</button>
+        <button id="botao2" onclick="adicionarBotao('2')">2</button>
+        <button id="botao3" onclick="adicionarBotao('3')">3</button>
+        <button id="botao4" onclick="adicionarBotao('4')">4</button>
+        <button id="botao5" onclick="adicionarBotao('5')">5</button>
+        <button id="botao6" onclick="adicionarBotao('6')">6</button>
+        <button id="botao7" onclick="adicionarBotao('7')">7</button>
+        <button id="botao8" onclick="adicionarBotao('8')">8</button>
+        <button id="botao9" onclick="adicionarBotao('9')">9</button>
+        <button id="botao0" onclick="adicionarBotao('0')">0</button>
+        <button id="botaoMais" onclick="adicionarBotao('+')">+</button>
+        <button id="botaoMenos" onclick="adicionarBotao('-')">-</button>
+        <button id="botaoMultiplicacao" onclick="adicionarBotao('*')">x</button>
+        <button id="botaoDivisao" onclick="adicionarBotao('/')">/</button>
+        <button id="botaoLimpar" onclick="limparDisplay()">C</button>
+        <button id="botaoIgual">=</button>
+        <button id="botaoPonto" onclick="adicionarBotao('.')">.</button>
+        <button id="botaoPorcentagem" onclick="adicionarBotao('%')">%</button>
+        <button id="botaoAC" onclick="limparDisplay()">AC</button>
+        <button id="botaoM" onclick="adicionarBotao('M')">M</button>
+    </div>
+    
+    <div id="localResultado">0</div>
+
+
+    <script src="script.js"></script>
+    <script src="botoes.js"></script>
+</body>
+
+</html>

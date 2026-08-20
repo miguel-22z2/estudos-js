@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style2.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div class="calculator">
+        <div class="display" id="display"></div>
+        <div class="buttons">
+            <button id="botao1" onclick="appendNumber('1')">1</button>
+            <button id="botao2" onclick="appendNumber('2')">2</button>
+            <button id="botao3" onclick="appendNumber('3')">3</button>
+            <button id="botao4" onclick="appendNumber('4')">4</button>
+            <button id="botao5" onclick="appendNumber('5')">5</button>
+            <button id="botao6" onclick="appendNumber('6')">6</button>
+            <button id="botao7" onclick="appendNumber('7')">7</button>
+            <button id="botao8" onclick="appendNumber('8')">8</button>
+            <button id="botao9" onclick="appendNumber('9')">9</button>
+            <button id="botao0" onclick="appendNumber('0')">0</button>
+            <button id="botaoMais" onclick="appendOperator('+')">+</button>
+            <button id="botaoMenos" onclick="appendOperator('-')">-</button>
+            <button id="botaoMultiplicacao" onclick="appendOperator('*')">x</button>
+            <button id="botaoDivisao" onclick="appendOperator('/')">/</button>
+            <button id="botaoPorcentagem" onclick="appendOperator('%')">%</button>
+            <button id="botaoPonto" onclick="appendOperator('.')">.</button>
+            <button id="botaoLimpar" onclick="clearDisplay()">C</button>
+            <button id="botaoIgual" onclick="calculate()">=</button>
+            <button id="botaoAC" onclick="clearDisplay()">AC</button>
+            <button id="botaoM" onclick="appendNumber('M')">M</button>
+
+        </div>
+        
+        <div id="localResultado">0</div>
+
+    </div>
+    
+
+    <script src="texte2.js"></script>
+</body>
+
+</html>
