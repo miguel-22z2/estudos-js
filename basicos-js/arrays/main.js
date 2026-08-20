@@ -1,18 +1,6 @@
-const expressao = "4 + 2";
+const buttons = document.querySelectorAll(".buttons-append");
 
-const arrayComValores = expressao.split(" ");
+const elemento2 = buttons[4];
 
-console.log(arrayComValores);
+console.log(elemento2);
 
-for (let i = 0; i < arrayComValores.length; i++) {
-
-    if (arrayComValores[i] == "+") {
-        const numero1 = Number(arrayComValores[i - 1]);
-        const numero2 = Number(arrayComValores[i + 1]);
-
-        console.log(numero1 + numero2);
-    } else {
-        continue;
-    }
-
-}
