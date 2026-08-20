@@ -35,4 +35,8 @@ function calcular() {
     const localResultado = document.getElementById("localResultado").textContent = valorTotal;
 }
 
-fazerExpressao.addEventListener('click', calcular);
+function chamarCalcular(){
+
+    calcular();
+
+}
