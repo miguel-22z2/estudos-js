@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(196, 235, 248, 0.655);
+}
+
+h1 {
+   color: rgb(29, 71, 95);
+}
+
+.buttons-concluir {
+    color: aliceblue;
+    background-color: green;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 4px;
+    position: relative;
+    left: 1rem;
+    border-radius: 7px;
+    margin: 7px;
+}
+
+.buttons-excluir {
+    color: aliceblue;
+    background-color: red;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 4px;
+    position: relative;
+    left: 1rem;
+    border-radius: 7px;
+    
+    
+}
