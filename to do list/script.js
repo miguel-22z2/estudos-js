@@ -27,6 +27,7 @@ function listarTarefas() {
         const indexFormatado = String(i);
 
         const elementoNovo = document.createElement("li");
+        elementoNovo.id = i + ":tarefa";
 
         elementoNovo.textContent = `${localStorage.getItem(indexFormatado)}`;
 
@@ -39,6 +40,12 @@ function listarTarefas() {
         buttonDeletar.classList.add("buttons-excluir");
         buttonDeletar.textContent = "Excluir"
         buttonDeletar.id = i + ":Deletar";
+
+        buttonDeletar.addEventListener('click', () => {
+
+            elementoNovo.remove();
+
+        });
 
         localResultado.appendChild(elementoNovo);
         elementoNovo.appendChild(buttonConcluir);
