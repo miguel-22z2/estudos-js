@@ -1,9 +1,15 @@
-const numero = document.getElementById("numeroInput");
+const numero1Input = document.getElementById("numero1Input");
+const numero2Input = document.getElementById("numero2Input");
 const somar = document.getElementById("botaoSomar");
 const resultado = document.getElementById("resultado");
+let valor1Input = ""
+let valor2Input = ""
 
-botao.addEventListener("click", function(){
-    const numero = numeroInput.value;
-    mensagem.textContent = `O Resultado é: ${numero}`;
+function botaoSomar() {
+    valor1Input = Number(numero1Input.value);
+    valor2Input = Number(numero2Input.value);
 
-})
+    resultado.textContent = `${valor1Input + valor2Input}`;
+}
+
+

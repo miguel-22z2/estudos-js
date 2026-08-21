@@ -32,12 +32,12 @@ function listarTarefas() {
 
         const buttonConcluir = document.createElement("button");
         buttonConcluir.classList.add("buttons-concluir");
-        buttonConcluir.textContent = "Concluir tarefa"
+        buttonConcluir.textContent = "Concluir"
         buttonConcluir.id = i + ":Concluir"
 
         const buttonDeletar = document.createElement("button");
         buttonDeletar.classList.add("buttons-excluir");
-        buttonDeletar.textContent = "Excluir Tarefa"
+        buttonDeletar.textContent = "Excluir"
         buttonDeletar.id = i + ":Deletar";
 
         localResultado.appendChild(elementoNovo);
