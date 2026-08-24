@@ -47,6 +47,19 @@ function listarTarefas() {
 
         });
 
+        buttonConcluir.addEventListener("click", function() {
+
+            elementoNovo.style.color = "rgb(18, 183, 40)";
+
+        });
+
+        elementoNovo.addEventListener("click", () => {
+
+            buttonConcluir.remove();
+            buttonDeletar.remove();
+
+        })
+
         localResultado.appendChild(elementoNovo);
         elementoNovo.appendChild(buttonConcluir);
         elementoNovo.appendChild(buttonDeletar);
