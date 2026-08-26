@@ -4,6 +4,12 @@ body {
     background-color: #163300;
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 h1 {
     color: #9fe870;
     font-family: "Obviously", "Inter", sans-serif;
@@ -125,9 +131,9 @@ button:active {
 #logoWise {
     position: fixed;
     position: relative;
-    top: -972px;
+    top: -960px;
     width: 100px;
-    left: 100px;
+    left: -428px;
     z-index: 9999;
 }
 
@@ -136,7 +142,7 @@ button:active {
     position: relative;
     text-align: center;
     align-items: center;
-    padding: 260px 20px;
+    padding: 30px 20px;
     border-radius: 20px;
     top: 50px;
     width: 30rem;
@@ -145,47 +151,124 @@ button:active {
 
 #inputQuantia {
     position: relative;
-    text-align: justify;
     align-items: baseline;
-    border: 1px solid #3a5828;
+    border: 2px solid #3a5828;
     border-radius: 15px;
     padding: 20px 20px;
-    left: -3px;
-    top: -115px;
     width: 420px;
+    left: -3px;
+    top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#selectQuantia {
+    text-align: center;
+    position: relative;
+    padding: 18px;
+    border-radius: 13px;
+    border: 0px;
+    z-index: 999;
+    top: -27px;
+    left: 165px;
+    outline: none;
+
 }
 
 #inputConverter {
     position: relative;
     text-align: justify;
     align-items: baseline;
-    border: 1px solid #3a5828;
+    border: 2px solid #3a5828;
     border-radius: 15px;
     padding: 20px 20px;
     left: -3px;
-    top: -20px;
+    top: 50px;
     width: 420px;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+#selectConverter {
+    text-align: center;
+    position: relative;
+    padding: 18px;
+    border-radius: 15px;
+    border: 0px;
+    z-index: 999;
+    top: -7px;
+    left: 165px;
+    outline: none;
 }
 
 #taxaCambio {
-    font-family:'SN Pro', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'SN Pro', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     text-align: center;
     align-items: center;
     z-index: 9999;
     font-size: 17px;
     font-weight: 600;
-    top: -230px;
+    top: -20px;
 }
 
 #quantia {
-    font-family:'SN Pro', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'SN Pro', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     text-align: left;
     align-items: baseline;
     z-index: 9999;
     font-size: 15px;
     font-weight: 600;
-    top: -268px;
+    top: -233px;
+}
+
+#converter {
+    font-family: 'SN Pro', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: left;
+    align-items: baseline;
+    z-index: 9999;
+    font-size: 15px;
+    font-weight: 600;
+    top: -135px;
+}
+
+#buttonEnvieDinheiro {
+    background-color: #9fe870;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 30px;
+    padding: 10px 170px;
+    top: -40px;
+
+}
+
+#buttonAcompanhe {
+    background-color: aliceblue;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #163300;
+    border-radius: 30px;
+    padding: 10px 98px;
+    white-space: nowrap;
+    top: -20px;
+
+}
+
+#disgnWise {
+    position: relative;
+    width: 520px;
+    height: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+    left: 500px;
+    z-index: -10;
+    top: -130px;
+
 }

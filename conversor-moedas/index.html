@@ -24,14 +24,36 @@
 
     <div id="divMoedas">
         <p id="taxaCambio">Taxa de câmbio comercial</p>
-        <input type="number" id="inputQuantia">
-        <input type="number" id="inputConverter">
+
+        <div id="conteinerQuantia">
+            <input type="number" id="inputQuantia">
+            <select id="selectQuantia">
+                <option value="brlQuantia">BRL</option>
+                <option value="usdQuantia">USD</option>
+                <option value="euroQuantia">EURO</option>
+            </select>
+        </div>
+
+        <div id="conteinerConverter">
+            <input type="number" id="inputConverter">
+            <select id="selectConverter">
+                <option value="brlConverter">BRL</option>
+                <option value="usdConverter">USD</option>
+                <option value="euroConverter">EURO</option>
+            </select>
+        </div>
+
+
         <p id="quantia">Quantia</p>
         <p id="converter">Converter para</p>
-
+        <button id="buttonEnvieDinheiro">Envie dinheiro</button>
+        <button id="buttonAcompanhe">Acompanhe a taxa de câmbio</button>
     </div>
 
-    <img id="logoWise" src="https://d21buns5ku92am.cloudfront.net/69645/images/470456-Frame-c061f4-large-1677657684.png" alt="Logo wise">
+
+    <img id="disgnWise" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/f77786170390147.645d0eac1add6.jpg" alt="">
+    <img id="logoWise" src="https://d21buns5ku92am.cloudfront.net/69645/images/470456-Frame-c061f4-large-1677657684.png"
+        alt="Logo wise">
 
 </body>
 
