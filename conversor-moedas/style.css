@@ -140,7 +140,7 @@ button:active {
 #logoWise {
     position: fixed;
     position: relative;
-    top: -960px;
+    top: -975px;
     width: 100px;
     left: -428px;
     z-index: 9999;
@@ -280,4 +280,9 @@ button:active {
     z-index: -10;
     top: -130px;
 
+}
+
+#localResultado {
+    background-color:aliceblue;
+    border: 0px;   
 }
