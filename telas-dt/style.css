@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+
+}
+
+
+
+.conteiner-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.conteiner-logo img {
+    width: 18rem;
+    z-index: 9999;
+    position: relative;
+    top: 120px;
+}
+
+.divLogin {
+    background-color:rgb(247, 247, 247);
+    border: 1px solid rgba(158, 158, 158, 0.328);
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 190px 40px;
+    border-radius: 20px;
+    top: -50px;
+    width: 30rem;
+    left: 460px;
+}
+
+.inputs-login {
+    border: 1px solid rgba(158, 158, 158, 0.328);
+    border-radius: 10px;
+    position: relative;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 497px;
+    height: 50px;
+    left: -9px;
+    top: -8px;
+    font-size: 16px;
+
+    
+}
+
+.inputs-login::placeholder {
+    color:  rgba(158, 158, 158, 0.565);
+    opacity: 1.5;
+}
+
+.textos-login {
+    font-family: Inter;
+    font-weight: normal;
+    position: relative;
+    right: 13.7rem;
+    top: 6px;
+    font-size: 17px;
+}
+
+.div-senha-privacidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-senha-privacidade img {
+    position: relative;
+    top: -303px;
+    z-index: 9999;
+    left: 210px;
+}
+
+.botaoLogin {
+    background-color: rgb(247, 168, 27);
+    font-size: 15px;
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 0px;
+    padding: 19px 229px;
+    left: 490px;
+    top: -207px;
+
+}
+
+.divLogin a {
+    font-family: Inter;
+    color: rgb(13, 153, 255);
+    position: relative;
+    font-size: 13px;
+    left: -185px;
+    top: -5px;
+    text-decoration: none;
+}
+
+a {
+    font-family: Inter;
+    color:  rgba(158, 158, 158, 0.565);
+    position: relative;
+    top: -160px;
+    left: 651px;
+    text-decoration: none;
+}
