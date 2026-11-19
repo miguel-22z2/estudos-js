@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.logo-rotary {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.logo-rotary img {
+    width: 11rem;
+    z-index: 9999;
+    position: relative;
+    top: 15px;
+}
+
+.saudacao-inicio {
+    color: #17458F;
+    font-family: Inter;
+    position: relative;
+    font-size: 28px;
+    left: 650px;
+    top: 16px;
+}
+
+.nome-inicio {
+    color: #F7A81B;
+    font-family: Inter;
+    position: relative;
+    font-size: 26px;
+    left: 700px;
+    top: -5px;
+    
+}
+
+.componentes-inicio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.componentes-inicio img {
+    width: 30rem;
+    z-index: 9999;
+    position: relative;
+   
+}
+
+.botao-componentes {
+   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 130px;
+    top: -320px;
+    z-index: 9999;
+    padding: 10px 50px;
+
+
+
+}

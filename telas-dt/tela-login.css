@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body {
-
-}
-
-
-
 .conteiner-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-   
 }
 
 .conteiner-logo img {
@@ -45,8 +37,12 @@ body {
     left: -9px;
     top: -8px;
     font-size: 16px;
+    outline: none;
+    transition: 80ms;
+}
 
-    
+.inputs-login:focus {
+    border: 2px solid #17458F;
 }
 
 .inputs-login::placeholder {
@@ -76,6 +72,13 @@ body {
     left: 210px;
 }
 
+#img-privacidade {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
 .botaoLogin {
     background-color: rgb(247, 168, 27);
     font-size: 15px;
@@ -89,7 +92,6 @@ body {
     padding: 19px 229px;
     left: 490px;
     top: -207px;
-
 }
 
 .divLogin a {
